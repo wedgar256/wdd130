@@ -76,13 +76,17 @@ footer {
 }
 
 aside {
-    width: 20rem;
+    width: 80%;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0/ 0.2); /* 1 */
+    border: 1px solid rgb(0 0 0/ 0.2); 
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 7rem;
 }
 
 aside img {
@@ -97,6 +101,6 @@ p { padding: 0;}
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
-    ,text-align: center;
+    text-align: center;
 }
 
