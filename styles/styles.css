@@ -1,35 +1,56 @@
-main {
-    max-width: 840px;
-}
+/* styles.css - WDD 130 Course Home Page Styles */
 
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    /* light gray background */
     color: #333;
-    text-align: center;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
-}
-
-main img {
-    width: 150px;
-    height: auto;
-
-}
-
-p {
+    margin: 0;
     padding: 0;
 }
 
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
+main {
+    max-width: 840px;
+    /* Very common WDD 130 rule - keeps content readable */
+    margin: 2rem auto;
+    /* Centers it with space top/bottom */
+    padding: 1.5rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+h2 {
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+img {
+    max-width: 100%;
+    /* Makes images responsive */
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+ul {
+    list-style-type: square;
+    margin: 1.5rem 2rem;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e74c3c;
 }
