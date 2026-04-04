@@ -5,6 +5,7 @@
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
+    --color: var(--text-light);
 }
 
 * {
@@ -20,6 +21,15 @@ header {
     grid-template-columns: auto 1fr;
     padding: 1rem 5%;
     align-items: center;
+    color: white;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: var(--accent2-color);
 }
 
 /* CONTACT PAGE IMPROVEMENTS */

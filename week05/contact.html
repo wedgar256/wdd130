@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Contact White Water Rafting Company for inquiries, reservations, and trip information. Get in touch with our team today.">
+    <meta name="author" content="Wanyama Edgar">
     <title>Contact Us | White Water Rafting Company</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -17,10 +18,12 @@
         <img src="images/logo.png" alt="White Water Rafting Company Logo" class="logo">
 
         <nav class="socialmedia">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="trips.html">Trips</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -55,17 +58,17 @@
                 <p>Message Purpose</p>
 
                 <label>
-                    <input type="radio" name="purpose" value="general" required>
+                    <input type="radio" id="purpose-general" name="purpose" value="general" required>
                     General Inquiry
                 </label>
 
                 <label>
-                    <input type="radio" name="purpose" value="reservation">
+                    <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
                     Reservation Question
                 </label>
 
                 <label>
-                    <input type="radio" name="purpose" value="suggestion">
+                    <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
                     Website Suggestion
                 </label>
 
@@ -73,7 +76,7 @@
                 <textarea id="message" name="message" placeholder="Type here" required></textarea>
 
                 <label>
-                    <input type="checkbox" name="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe">
                     Please subscribe me to the monthly newsletter
                 </label>
 
