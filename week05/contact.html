@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact White Water Rafting Company for inquiries, reservations, and trip information. Get in touch with our team today.">
+    <meta name="author" content="Wanyama Edgar">
+    <title>Contact Us | White Water Rafting Company</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="images/logo.png" alt="White Water Rafting Company Logo" class="logo">
+
+        <nav class="socialmedia">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- COMPANY INFO -->
+        <section class="company-info">
+            <h1>White Water Rafting Company</h1>
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@whitewater.com</p>
+        </section>
+
+        <!-- MAP + FORM -->
+        <section class="contact-grid">
+
+            <!-- MAP -->
+            <div class="map">
+                <iframe src="https://www.google.com/maps?q=Kolob+Utah&output=embed"></iframe>
+            </div>
+
+            <!-- FORM -->
+            <form class="contact-form">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <p>Message Purpose</p>
+
+                <label>
+                    <input type="radio" id="purpose-general" name="purpose" value="general" required>
+                    General Inquiry
+                </label>
+
+                <label>
+                    <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                    Reservation Question
+                </label>
+
+                <label>
+                    <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+                    Website Suggestion
+                </label>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Type here" required></textarea>
+
+                <label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Get in Touch!</button>
+
+            </form>
+        </section>
+
+        <!-- EMPLOYEES -->
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+
+            <div class="employee-cards">
+                <figure>
+                    <img src="images/employee1.jpg" alt="John, Lead River Guide">
+                    <figcaption>John – Lead Guide</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee2.jpg" alt="Sarah, Safety Officer">
+                    <figcaption>Sarah – Safety Officer</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="Mike, Trip Coordinator">
+                    <figcaption>Mike – Trip Coordinator</figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 White Water Rafting Company - Wanyama Edgar</p>
+
+        <nav class="socialmedia">
+            <a href="#"><img src="images/pinterest.png.svg" alt="Pinterest"></a>
+            <a href="#"><img src="images/twitter.svg" alt="X"></a>
+            <a href="#"><img src="images/youtube.svg" alt="YouTube"></a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ====================== ROOT VARIABLES ====================== */
 :root {
     --primary-color: #264653;
@@ -29,12 +30,15 @@ body {
     background-color: #fff;
 }
 
+=======
+>>>>>>> 5eff434d45de7a7765f9334ceecf225e9b0e619b
 /* ====================== HEADER ====================== */
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 5%;
+<<<<<<< HEAD
     background-color: var(--primary-color);
     color: #fff;
     border-bottom: 4px solid var(--accent2-color);
@@ -45,22 +49,30 @@ header {
 .logo {
     height: 60px;
     width: auto;
+=======
+    background-color: #b8a0e0;
+    /* purple like wireframe */
+    color: #fff;
+    border-bottom: 4px solid var(--accent2-color);
+>>>>>>> 5eff434d45de7a7765f9334ceecf225e9b0e619b
 }
 
 header nav {
     display: flex;
     gap: 1.5rem;
-    align-items: center;
 }
 
 header nav a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: background 0.3s;
 }
 
 header nav a:hover {
-    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* ====================== HERO STYLES ====================== */
@@ -90,6 +102,7 @@ header nav a:hover {
 }
 
 .hero {
+<<<<<<< HEAD
     position: relative;
     margin: 1rem 5%;
     border-radius: 15px;
@@ -101,40 +114,46 @@ header nav a:hover {
     width: 100%;
     height: auto;
     border-radius: 10px;
+=======
+    padding: 3rem 5%;
+    background-color: #f8f9fa;
+    text-align: center;
+>>>>>>> 5eff434d45de7a7765f9334ceecf225e9b0e619b
 }
 
 .hero h1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    background-color: rgba(38, 70, 83, 0.85);
-    color: #fff;
-    padding: 18px 0;
-    margin: 0;
+    font-family: var(--heading-font);
     font-size: 2.8rem;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
 }
 
-.hero article {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    width: 90%;
-    max-width: 420px;
-    background-color: rgba(255, 255, 255, 0.95);
-    color: var(--accent1-color);
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+.hero-content {
+    display: flex;
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
 }
 
+<<<<<<< HEAD
 .hero article img {
     float: right;
     width: 120px;
     margin: 0 0 12px 15px;
+=======
+.hero-content p {
+    flex: 1;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.hero-content img {
+    width: 280px;
+>>>>>>> 5eff434d45de7a7765f9334ceecf225e9b0e619b
     border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 /* ====================== HISTORY & ADVENTURE (About Page) ====================== */
@@ -148,8 +167,9 @@ header nav a:hover {
 .history h2,
 .adventure h2 {
     font-family: var(--heading-font);
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
 }
 
 .history-grid {
@@ -172,6 +192,7 @@ header nav a:hover {
     justify-content: center;
 }
 
+<<<<<<< HEAD
 .history-image img,
 .history img {
     width: 100%;
@@ -185,6 +206,19 @@ header nav a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+=======
+.history-image img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 8px;
+}
+
+/* ====================== ADVENTURE CARDS ====================== */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+>>>>>>> 5eff434d45de7a7765f9334ceecf225e9b0e619b
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -195,8 +229,6 @@ header nav a:hover {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
     overflow: hidden;
     transition: all 0.3s ease;
-    display: flex;
-    flex-direction: column;
 }
 
 .card:hover {
@@ -452,6 +484,7 @@ tr:hover {
     background-color: #d4a017;
 }
 
+<<<<<<< HEAD
 /* ====================== FOOTER ====================== */
 footer {
     background-color: var(--accent1-color);
@@ -480,16 +513,27 @@ footer p {
 }
 
 /* ====================== RESPONSIVE ====================== */
+=======
+/* Responsive */
+>>>>>>> 5eff434d45de7a7765f9334ceecf225e9b0e619b
 @media (max-width: 900px) {
     .history-grid {
         grid-template-columns: 1fr;
         gap: 2rem;
+<<<<<<< HEAD
+=======
+    }
+
+    .hero-content {
+        flex-direction: column;
+>>>>>>> 5eff434d45de7a7765f9334ceecf225e9b0e619b
     }
 
     .cards,
     .trip-cards {
         grid-template-columns: repeat(2, 1fr);
     }
+<<<<<<< HEAD
 
     .hero h1 {
         font-size: 2.2rem;
@@ -498,6 +542,8 @@ footer p {
     .contact-grid {
         grid-template-columns: 1fr;
     }
+=======
+>>>>>>> 5eff434d45de7a7765f9334ceecf225e9b0e619b
 }
 
 @media (max-width: 600px) {
@@ -506,6 +552,7 @@ footer p {
     .trip-cards {
         grid-template-columns: 1fr;
     }
+<<<<<<< HEAD
 
     .hero article {
         position: static;
@@ -526,4 +573,6 @@ footer p {
     .hero-home h1 {
         font-size: 2.4rem;
     }
+=======
+>>>>>>> 5eff434d45de7a7765f9334ceecf225e9b0e619b
 }
