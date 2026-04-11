@@ -17,7 +17,6 @@
 html,
 body {
     height: 100%;
-    margin: 0;
     overflow-x: hidden;
 }
 
@@ -81,7 +80,7 @@ header nav a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #fff;
     font-size: 3.2rem;
     text-align: center;
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
@@ -132,7 +131,7 @@ header nav a:hover {
     right: 0;
     background-color: rgba(38, 70, 83, 0.92);
     /* dark teal/grey */
-    color: white;
+    color: #fff;
     padding: 18px 5%;
     display: flex;
     align-items: center;
@@ -199,7 +198,7 @@ header nav a:hover {
 .newsletter-form button {
     padding: 12px 30px;
     background-color: var(--primary-color);
-    color: white;
+    color: #fff;
     border: none;
     border-radius: 6px;
     font-weight: bold;
@@ -241,7 +240,7 @@ header nav a:hover {
 }
 
 .grid-item {
-    background: white;
+    background-color: #fff;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -293,11 +292,6 @@ header nav a:hover {
     align-items: center;
 }
 
-.history-image img {
-    width: 100%;
-    border-radius: 12px;
-}
-
 .history-grid article {
     text-align: left;
     line-height: 1.6;
@@ -334,7 +328,7 @@ header nav a:hover {
 }
 
 .card {
-    background: white;
+    background-color: #fff;
     border-radius: 18px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
     overflow: hidden;
@@ -387,7 +381,7 @@ header nav a:hover {
     margin-top: 15px;
     padding: 12px;
     background-color: var(--primary-color);
-    color: white;
+    color: #fff;
     border: none;
     border-radius: 8px;
     font-weight: bold;
@@ -396,7 +390,7 @@ header nav a:hover {
 
 .contact-form button:hover {
     background-color: var(--accent2-color);
-    color: black;
+    color: #000;
 }
 
 /* Table */
@@ -414,7 +408,7 @@ td {
 
 th {
     background-color: var(--primary-color);
-    color: white;
+    color: #fff;
 }
 
 /* Footer */
@@ -456,14 +450,7 @@ footer {
 
 
 
-.cards,
-.trip-cards {
-    grid-template-columns: repeat(3, 1fr);
-}
 
-.contact-grid {
-    grid-template-columns: 1fr;
-}
 
 
 @media (max-width: 600px) {
