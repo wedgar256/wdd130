@@ -51,3 +51,47 @@ a:hover {
     text-decoration: underline;
     color: #e74c3c;
 }
+
+nav {
+    background-color: #34495e;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    padding: 0.5rem;
+    display: block;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem auto;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #ecf0f1;
+    color: #333;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding-top: 1rem;
+}
